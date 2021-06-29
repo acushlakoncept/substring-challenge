@@ -1,24 +1,87 @@
-# README
+# LONGEST SUBSTRING CHALLENGE
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Given a string s, the app returns the longest substring without repeating characters.
 
-Things you may want to cover:
+> Example 1:
+> Input: s = "abcabcbb"
+> Output: 3
+> Explanation: The answer is "abc", with the length of 3.
 
-* Ruby version
+> Example 2:
+> Input: s = "bbbbb"
+> Output: 1
+> Explanation: The answer is "b", with the length of 1.
 
-* System dependencies
+> Example 3:
+> Input: s = "pwwkew"
+> Output: 3
+> Explanation: The answer is "wke", with the length of 3.
 
-* Configuration
+## Built With
 
-* Database creation
+- Ruby v2.7.2
+- Ruby on Rails v6.1.4
 
-* Database initialization
+## Live Demo
 
-* How to run the test suite
+[Live Demo](https://substring-challenge.herokuapp.com/)
 
-* Services (job queues, cache servers, search engines, etc.)
+## Getting Started
 
-* Deployment instructions
+To get a local copy up and running follow these simple example steps.
+### Setup
 
-* ...
+~~~bash
+$ git clone https://github.com/acushlakoncept/substring-challenge.git
+$ cd substring-challenge
+~~~
+
+Install gems with:
+
+```
+bundle install
+```
+
+Setup database with:
+
+> make sure you have postgress sql installed and running on your system
+
+```
+   rails db:create
+   rails db:migrate
+```
+
+### Usage
+
+Start server with:
+
+```
+    rails server
+```
+
+Open `http://localhost:3000/` in your browser.
+
+### Run tests
+
+```
+    rpsec 
+```
+
+# Authors
+
+👤 **Uduak Essien**
+
+- Github: [@acushlakoncept](https://github.com/acushlakoncept/)
+- Twitter: [@acushlakoncept](https://twitter.com/acushlakoncept)
+- Linkedin: [acushlakoncept](https://www.linkedin.com/in/acushlakoncept/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
