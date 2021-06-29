@@ -25,7 +25,7 @@ class SubmissionsController < ApplicationController
       end
       current << word
     end
-    @results
+    @results = current if @results.empty?
   end
 
   private
