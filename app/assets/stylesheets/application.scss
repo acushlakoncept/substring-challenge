@@ -1,0 +1,68 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btn {
+ display: inline-block;
+ font-weight: 400;
+ text-align: center;
+ white-space: nowrap;
+ vertical-align: middle;
+ -webkit-user-select: none;
+ -moz-user-select: none;
+ -ms-user-select: none;
+ user-select: none;
+ border: 1px solid transparent;
+ padding: .375rem .75rem;
+ font-size: 1rem;
+ line-height: 1.5;
+ border-radius: .25rem;
+ transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-word {
+   color: #fff !important;
+   font-weight: 100 !important;
+   background-color: #F87254 !important;
+   border-color: #F87254 !important;
+   transition: all 0.4s ease;
+ 
+   &:hover {
+     background-color: #fc876d !important;
+   }
+ }
+ 
+ .form-control {
+   display: block;
+   width: 100%;
+   padding: .375rem .75rem;
+   font-size: 1rem;
+   line-height: 1.5;
+   color: #495057;
+   background-color: #fff;
+   background-clip: padding-box;
+   border: 1px solid #ced4da;
+   border-radius: .25rem;
+   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+   margin-bottom: 1rem;
+}
